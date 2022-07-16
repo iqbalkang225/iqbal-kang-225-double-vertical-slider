@@ -44,7 +44,6 @@ i{
 }
 
 .left-inner-container{
-  transition: all .75s ease-in-out;
   height: 100%;
 
   display: flex;
@@ -74,8 +73,10 @@ i{
 }
 
 .left-container{
+  transition: all .75s ease-in-out;
   grid-column: 1 / 2;
   grid-row: 1 / -1;
+  text-align: center;
 }
 
 .down-arrow{
@@ -97,6 +98,7 @@ i{
 .right-container{
   grid-column: 2 / -1;
   grid-row: 1 / -1;
+  transition: all .75s ease-in-out;
 
   display: flex;
   flex-direction: column-reverse;
